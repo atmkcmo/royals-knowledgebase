@@ -65,7 +65,7 @@ export default {
             let that = this;
             this.loading = true;
             this.allProducts = [];
-            const baseURI = "/players.json";
+            const baseURI = "/royals-knowledgebase/players.json";
             await axios.get(baseURI).then(result => {
                 that.allPlayers.push(...result.data);
             });
