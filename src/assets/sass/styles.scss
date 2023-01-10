@@ -1,0 +1,16 @@
+
+// colors
+$primary: #004687;
+$secondary: #BD9B60;
+$info: #7bb2dd;
+$light: #F1F1F1;
+$dark: #101010;
+$headings-color: $dark;
+@import "../node_modules/bootstrap/scss/bootstrap";
+body {
+    background: $info;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
