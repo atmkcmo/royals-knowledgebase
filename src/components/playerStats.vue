@@ -1,5 +1,5 @@
 <template>
-    <div class="card">
+    <section class="card">
         <div class="card-header">
             <h2 class="fs-4">Stats</h2>
         </div>
@@ -200,7 +200,7 @@
                 </tbody>
             </table>
         </div>
-    </div>
+    </section>
 </template>
 
 <script>

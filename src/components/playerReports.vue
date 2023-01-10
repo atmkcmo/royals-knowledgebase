@@ -1,5 +1,5 @@
 <template>
-    <div class="card">
+    <section class="card">
         <div class="card-header">
             <h4>Reports</h4>
         </div>
@@ -17,7 +17,7 @@
                     <td>{{ report.scout }}</td>
                     <td>
                         <a :href="`#reportDetails-${reportIndex}`" @click="scrollToBottom" data-bs-toggle="collapse"
-                            class="border btn btn-light btn-sm text-secondary">View</a>
+                            class="btn btn-secondary text-light btn-sm text-secondary">View</a>
                         <table class="table mb-0 collapse" :id="`reportDetails-${reportIndex}`">
                             <tr>
                                 <td colspan="2">
@@ -35,7 +35,7 @@
 
             </tbody>
         </table>
-    </div>
+    </section>
 </template>
 
 

@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <section>
         <div class="row">
             <div class="col-xl-3">
                 <PlayerImage :player="player"></PlayerImage>
@@ -19,7 +19,7 @@
                 <PlayerCharacteristics class="mt-3" :player="player"></PlayerCharacteristics>
             </div>
         </div>
-    </div>
+    </section>
 </template>
 
 

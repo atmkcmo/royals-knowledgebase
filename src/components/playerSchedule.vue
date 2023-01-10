@@ -1,6 +1,6 @@
 <template>
     <div class="card ">
-        <div class="card-header bg-secondary">
+        <div class="card-header bg-primary">
             <div class="fs-5 text-light">Next {{ player.upcoming.length }} Games</div>
         </div>
         <table class="table table-striped mb-0 small">

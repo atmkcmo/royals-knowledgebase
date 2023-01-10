@@ -12,6 +12,7 @@ export default {
 
 <style scoped>
 .player-image {
-    border: 3px solid #caaf80;
+    border: 2px solid #ddd;
+    /* border: 2px solid #004687; */
 }
 </style>

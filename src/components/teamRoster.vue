@@ -1,6 +1,6 @@
 <template>
     <div class="d-inline">
-        <button class="btn btn-light btn-sm" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+        <button class="btn btn-light btn-sm text-light bg-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
             aria-controls="offcanvasRight">
             View Team Roster
         </button>
