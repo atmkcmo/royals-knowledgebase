@@ -16,7 +16,7 @@
                     </div>
                 </section>
                 <section v-else class="h-100 d-flex flex-column justify-content-center align-items-center">
-                    <img src="./assets/images/royals-logo.png" alt="Kansas City Royals logo" />
+                    <img style="max-width: 300px" src="./assets/images/royals-logo.png" alt="Kansas City Royals logo" />
                     <h1 class="text-light"><i>Roster Knowledge Base</i></h1>
                     <h2>Please select player from list...</h2>
                 </section>

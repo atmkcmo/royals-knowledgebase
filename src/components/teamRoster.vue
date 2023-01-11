@@ -14,7 +14,7 @@
                 <ul class="list-group ">
                     <li v-for="(teamMates, index) in team" @click="setPlayer(teamMates.id)" data-bs-dismiss="offcanvas"
                         :key="index" class="list-group-item list-group-item-action action">
-                        {{ teamMates.first_name }} {{ teamMates.last_name }}
+                        {{ teamMates.first_name }} {{ teamMates.last_name }} <span class="text-muted">({{ teamMates.position }})</span>
                     </li>
                 </ul>
             </div>
